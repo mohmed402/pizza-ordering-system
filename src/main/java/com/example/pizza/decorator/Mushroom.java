@@ -12,6 +12,6 @@ public class Mushroom extends ToppingDecorator {
 
     @Override
     public double getCost() {
-        return pizza.getCost() + 0.75;
+        return pizza.getCost() + 1.25;
     }
 }
